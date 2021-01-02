@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\azad\\Documents\\Unreal Projects\\ArchitectureExplorer\\Source\\ArchitectureExplorer\\ArchitectureExplorer.Build.cs",
+		"C:\\Users\\azad\\Documents\\Unreal Projects\\ArchitectureExplorer\\Source\\ArchitectureExplorer.Target.cs",
+		"C:\\Users\\azad\\Documents\\Unreal Projects\\ArchitectureExplorer\\Source\\ArchitectureExplorerEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.0"
+}
