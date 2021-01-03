@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>33179D674ED5C77B938894B07DAE12FE</ExecutionGuid>
+		<CrashGUID>UE4CC-Windows-503F99254149B9242D562383DB6AF91F_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffffffffffff</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>9692</ProcessId>
+		<SecondsSinceStart>12576</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE4-ArchitectureExplorer</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<Symbols>**UE4*Release-4.26-CL-14830424-Win64-Development</Symbols>
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Dirty</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.26.0-14830424+++UE4+Release-4.26</EngineVersion>
+		<CommandLine>&quot;C:/Users/azad/Documents/Unreal Projects/ArchitectureExplorer/ArchitectureExplorer.uproject&quot;</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en-US</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.26-CL-14830424</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<IsRequestingExit>true</IsRequestingExit>
+		<UserName />
+		<BaseDir>C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_4.26/</RootDir>
+		<MachineId>F8AB533342E8C71FC05D158C9D8C128E</MachineId>
+		<LoginId>f8ab533342e8c71fc05d158c9d8c128e</LoginId>
+		<EpicAccountId>de14f63de35d48cb9e6e5d456049147d</EpicAccountId>
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint>EditorExit</UserActivityHint>
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>8</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>16</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 2080</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10 (Release 1809)</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>34265751552</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack />
+		<PCallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 5ec43d UE4Editor 0x00007ff7d8020000 + 3b0ff VCRUNTIME140 0x00007ff8b8dc0000 + e3e0 ntdll 0x00007ff8c9020000 + a41bf ntdll 0x00007ff8c9020000 + 4bef ntdll 0x00007ff8c9020000 + a2f2e UE4Editor-TcpMessaging 0x00007ff84ed90000 + f918 UE4Editor-Messaging 0x00007ff8581d0000 + fa35 UE4Editor-Messaging 0x00007ff8581d0000 + 177a2 UE4Editor-Messaging 0x00007ff8581d0000 + 13bf6 UE4Editor-Messaging 0x00007ff8581d0000 + e26d UE4Editor-Messaging 0x00007ff8581d0000 + 1ead9 UE4Editor-Messaging 0x00007ff8581d0000 + 1eb6f UE4Editor-Messaging 0x00007ff8581d0000 + 13ed6 UE4Editor 0x00007ff7d8020000 + 1936d UE4Editor 0x00007ff7d8020000 + 18b6e UE4Editor 0x00007ff7d8020000 + 20609 UE4Editor 0x00007ff7d8020000 + 211c7 UE4Editor 0x00007ff7d8020000 + 2121a UE4Editor 0x00007ff7d8020000 + 3527d UE4Editor 0x00007ff7d8020000 + 37faa KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</PCallStack>
+		<PCallStackHash>BC8778493AAB9064B5BAEC0A929AD2BD7DA66387</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 5ec43d UE4Editor 0x00007ff7d8020000 + 3b0ff VCRUNTIME140 0x00007ff8b8dc0000 + e3e0 ntdll 0x00007ff8c9020000 + a41bf ntdll 0x00007ff8c9020000 + 4bef ntdll 0x00007ff8c9020000 + a2f2e UE4Editor-TcpMessaging 0x00007ff84ed90000 + f918 UE4Editor-Messaging 0x00007ff8581d0000 + fa35 UE4Editor-Messaging 0x00007ff8581d0000 + 177a2 UE4Editor-Messaging 0x00007ff8581d0000 + 13bf6 UE4Editor-Messaging 0x00007ff8581d0000 + e26d UE4Editor-Messaging 0x00007ff8581d0000 + 1ead9 UE4Editor-Messaging 0x00007ff8581d0000 + 1eb6f UE4Editor-Messaging 0x00007ff8581d0000 + 13ed6 UE4Editor 0x00007ff7d8020000 + 1936d UE4Editor 0x00007ff7d8020000 + 18b6e UE4Editor 0x00007ff7d8020000 + 20609 UE4Editor 0x00007ff7d8020000 + 211c7 UE4Editor 0x00007ff7d8020000 + 2121a UE4Editor 0x00007ff7d8020000 + 3527d UE4Editor 0x00007ff7d8020000 + 37faa KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>14008</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f4a4 KERNELBASE 0x00007ff8c58e0000 + 79b73 KERNEL32 0x00007ff8c6350000 + 1c7ab UE4Editor-Core 0x00007ff86bc50000 + 5fed7f UE4Editor-Core 0x00007ff86bc50000 + 5eca1f UE4Editor-Core 0x00007ff86bc50000 + 5e65d1 UE4Editor-Core 0x00007ff86bc50000 + 5ef215 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1984</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f804 KERNELBASE 0x00007ff8c58e0000 + 39c61 UE4Editor-TraceLog 0x00007ff8b5380000 + 10886 UE4Editor-TraceLog 0x00007ff8b5380000 + 1076 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>996</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6484</ThreadID>
+				<ThreadName>TaskGraphThreadNP 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4164</ThreadID>
+				<ThreadName>TaskGraphThreadNP 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12076</ThreadID>
+				<ThreadName>TaskGraphThreadNP 2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6380</ThreadID>
+				<ThreadName>TaskGraphThreadNP 3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5964</ThreadID>
+				<ThreadName>TaskGraphThreadNP 4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9188</ThreadID>
+				<ThreadName>TaskGraphThreadNP 5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10784</ThreadID>
+				<ThreadName>TaskGraphThreadNP 6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3944</ThreadID>
+				<ThreadName>TaskGraphThreadNP 7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6624</ThreadID>
+				<ThreadName>TaskGraphThreadNP 8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8288</ThreadID>
+				<ThreadName>TaskGraphThreadNP 9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2360</ThreadID>
+				<ThreadName>TaskGraphThreadNP 10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11184</ThreadID>
+				<ThreadName>TaskGraphThreadNP 11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8256</ThreadID>
+				<ThreadName>TaskGraphThreadNP 12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11212</ThreadID>
+				<ThreadName>TaskGraphThreadNP 13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12048</ThreadID>
+				<ThreadName>TaskGraphThreadHP 14</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5740</ThreadID>
+				<ThreadName>TaskGraphThreadHP 15</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1264</ThreadID>
+				<ThreadName>TaskGraphThreadHP 16</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8252</ThreadID>
+				<ThreadName>TaskGraphThreadHP 17</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16868</ThreadID>
+				<ThreadName>TaskGraphThreadHP 18</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17032</ThreadID>
+				<ThreadName>TaskGraphThreadHP 19</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13216</ThreadID>
+				<ThreadName>TaskGraphThreadHP 20</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3800</ThreadID>
+				<ThreadName>TaskGraphThreadHP 21</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14072</ThreadID>
+				<ThreadName>TaskGraphThreadHP 22</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1664</ThreadID>
+				<ThreadName>TaskGraphThreadHP 23</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15264</ThreadID>
+				<ThreadName>TaskGraphThreadHP 24</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6508</ThreadID>
+				<ThreadName>TaskGraphThreadHP 25</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1228</ThreadID>
+				<ThreadName>TaskGraphThreadHP 26</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13960</ThreadID>
+				<ThreadName>TaskGraphThreadHP 27</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1032</ThreadID>
+				<ThreadName>TaskGraphThreadBP 28</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8688</ThreadID>
+				<ThreadName>TaskGraphThreadBP 29</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7992</ThreadID>
+				<ThreadName>TaskGraphThreadBP 30</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1152</ThreadID>
+				<ThreadName>TaskGraphThreadBP 31</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8440</ThreadID>
+				<ThreadName>TaskGraphThreadBP 32</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6400</ThreadID>
+				<ThreadName>TaskGraphThreadBP 33</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7180</ThreadID>
+				<ThreadName>TaskGraphThreadBP 34</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14368</ThreadID>
+				<ThreadName>TaskGraphThreadBP 35</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14552</ThreadID>
+				<ThreadName>TaskGraphThreadBP 36</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15124</ThreadID>
+				<ThreadName>TaskGraphThreadBP 37</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2816</ThreadID>
+				<ThreadName>TaskGraphThreadBP 38</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14840</ThreadID>
+				<ThreadName>TaskGraphThreadBP 39</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14824</ThreadID>
+				<ThreadName>TaskGraphThreadBP 40</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + ada7f UE4Editor-Core 0x00007ff86bc50000 + af190 UE4Editor-Core 0x00007ff86bc50000 + b64c5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14912</ThreadID>
+				<ThreadName>TaskGraphThreadBP 41</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + aea10 UE4Editor-Core 0x00007ff86bc50000 + af0fe UE4Editor-Core 0x00007ff86bc50000 + 3e63dd UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15292</ThreadID>
+				<ThreadName>StatsThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14548</ThreadID>
+				<ThreadName>PoolThread 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15268</ThreadID>
+				<ThreadName>PoolThread 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15140</ThreadID>
+				<ThreadName>PoolThread 2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15224</ThreadID>
+				<ThreadName>PoolThread 3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15992</ThreadID>
+				<ThreadName>PoolThread 4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10168</ThreadID>
+				<ThreadName>PoolThread 5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19240</ThreadID>
+				<ThreadName>PoolThread 6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15024</ThreadID>
+				<ThreadName>PoolThread 7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6240</ThreadID>
+				<ThreadName>PoolThread 8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15788</ThreadID>
+				<ThreadName>PoolThread 9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14432</ThreadID>
+				<ThreadName>PoolThread 10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13664</ThreadID>
+				<ThreadName>PoolThread 11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17124</ThreadID>
+				<ThreadName>PoolThread 12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5208</ThreadID>
+				<ThreadName>PoolThread 13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18008</ThreadID>
+				<ThreadName>PoolThread 14</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8692</ThreadID>
+				<ThreadName>PoolThread 15</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17204</ThreadID>
+				<ThreadName>PoolThread 16</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6168</ThreadID>
+				<ThreadName>PoolThread 17</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1788</ThreadID>
+				<ThreadName>PoolThread 18</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13236</ThreadID>
+				<ThreadName>PoolThread 19</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3960</ThreadID>
+				<ThreadName>PoolThread 20</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5880</ThreadID>
+				<ThreadName>PoolThread 21</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4900</ThreadID>
+				<ThreadName>PoolThread 22</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9944</ThreadID>
+				<ThreadName>PoolThread 23</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12160</ThreadID>
+				<ThreadName>PoolThread 24</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5480</ThreadID>
+				<ThreadName>PoolThread 25</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7432</ThreadID>
+				<ThreadName>PoolThread 26</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3840</ThreadID>
+				<ThreadName>PoolThread 27</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5324</ThreadID>
+				<ThreadName>PoolThread 28</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13576</ThreadID>
+				<ThreadName>PoolThread 29</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f804 KERNELBASE 0x00007ff8c58e0000 + 39c61 UE4Editor-Core 0x00007ff86bc50000 + 30d3d5 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4160</ThreadID>
+				<ThreadName>FAsyncWriter_ArchitectureExplorer</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Media 0x00007ff86fe00000 + 479c UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4524</ThreadID>
+				<ThreadName>FMediaTicker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + a2af4 ntdll 0x00007ff8c9020000 + 16494 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4108</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f804 KERNELBASE 0x00007ff8c58e0000 + 39c61 UE4Editor-HTTP 0x00007ff85fcf0000 + ab0f9 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7548</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f804 KERNELBASE 0x00007ff8c58e0000 + 39c61 UE4Editor-WebSockets 0x00007ff85a250000 + 1662e UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18888</ThreadID>
+				<ThreadName>LibwebsocketsThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13152</ThreadID>
+				<ThreadName>PoolThread 30</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14068</ThreadID>
+				<ThreadName>PoolThread 31</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11640</ThreadID>
+				<ThreadName>PoolThread 32</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4528</ThreadID>
+				<ThreadName>PoolThread 33</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2404</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4204</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12756</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2260</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12716</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19024</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7624</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15884</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 3b8a53 nvwgf2umx 0x00007ff882210000 + 3b7c80 nvwgf2umx 0x00007ff882210000 + 3aeefd nvwgf2umx 0x00007ff882210000 + c5e30a nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2060</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + a2a94 ntdll 0x00007ff8c9020000 + 583d9 KERNELBASE 0x00007ff8c58e0000 + 1f44d MSVCP140 0x00007ff8b8d20000 + 3bf3d MSVCP140 0x00007ff8b8d20000 + 12798 MSVCP140 0x00007ff8b8d20000 + 12a4a UE4Editor-RHI 0x00007ff871b20000 + dafac UE4Editor-RHI 0x00007ff871b20000 + db331 UE4Editor-RHI 0x00007ff871b20000 + c8588 ucrtbase 0x00007ff8c5e10000 + 2268a KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17728</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Messaging 0x00007ff8581d0000 + 1e790 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8412</ThreadID>
+				<ThreadName>FMessageBus.DefaultBus.Router</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f804 KERNELBASE 0x00007ff8c58e0000 + 39c61 UE4Editor-Core 0x00007ff86bc50000 + 608961 UE4Editor-IOSTargetPlatform 0x00007ff858220000 + acd8 UE4Editor-IOSTargetPlatform 0x00007ff858220000 + 1101e UE4Editor-IOSTargetPlatform 0x00007ff858220000 + 13b19 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13688</ThreadID>
+				<ThreadName>FIOSDeviceHelper.QueryTask_1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f804 KERNELBASE 0x00007ff8c58e0000 + 39c61 UE4Editor-Core 0x00007ff86bc50000 + 608961 UE4Editor-Engine 0x00007ff868240000 + 1359130 UE4Editor-Engine 0x00007ff868240000 + 1396db7 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13428</ThreadID>
+				<ThreadName>ShaderCompilingThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f804 KERNELBASE 0x00007ff8c58e0000 + 39c61 UE4Editor-Core 0x00007ff86bc50000 + 608961 UE4Editor-AssetRegistry 0x00007ff872020000 + 71604 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16908</ThreadID>
+				<ThreadName>FAssetDataDiscovery</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f804 KERNELBASE 0x00007ff8c58e0000 + 39c61 UE4Editor-Core 0x00007ff86bc50000 + 608961 UE4Editor-AssetRegistry 0x00007ff872020000 + 730a4 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6184</ThreadID>
+				<ThreadName>FAssetDataGatherer</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6528</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f804 KERNELBASE 0x00007ff8c58e0000 + 39c61 UE4Editor-Core 0x00007ff86bc50000 + 608961 UE4Editor-TcpMessaging 0x00007ff84ed90000 + df09 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>888</ThreadID>
+				<ThreadName>FTcpMessageTransport</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-ProfilerService 0x00007ff84a7c0000 + e993 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3384</ThreadID>
+				<ThreadName>FFileTransferRunnable</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9300</ThreadID>
+				<ThreadName>PoolThread 34</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1576</ThreadID>
+				<ThreadName>PoolThread 35</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12428</ThreadID>
+				<ThreadName>PoolThread 36</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4880</ThreadID>
+				<ThreadName>PoolThread 37</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9764</ThreadID>
+				<ThreadName>PoolThread 38</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3788</ThreadID>
+				<ThreadName>PoolThread 39</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8768</ThreadID>
+				<ThreadName>PoolThread 40</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5260</ThreadID>
+				<ThreadName>PoolThread 41</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15144</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19160</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7356</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17568</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14352</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1544</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3408</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17072</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f804 KERNELBASE 0x00007ff8c58e0000 + 39c61 UE4Editor-Core 0x00007ff86bc50000 + 608961 UE4Editor-AndroidDeviceDetection 0x00007ff847b70000 + ba72 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10868</ThreadID>
+				<ThreadName>FAndroidDeviceDetectionRunnable</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f804 KERNELBASE 0x00007ff8c58e0000 + 39c61 UE4Editor-Core 0x00007ff86bc50000 + 608961 UE4Editor-AndroidDeviceDetection 0x00007ff847b70000 + ba72 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18992</ThreadID>
+				<ThreadName>FAndroidDeviceDetectionRunnable</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-CoreUObject 0x00007ff86b510000 + 2ef722 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8060</ThreadID>
+				<ThreadName>FAsyncPurge</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9fcd4 KERNELBASE 0x00007ff8c58e0000 + 5cc2e KERNELBASE 0x00007ff8c58e0000 + 5cb1e nvwgf2umx 0x00007ff882210000 + c24177 nvwgf2umx 0x00007ff882210000 + c5e30a nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18964</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15072</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14516</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17920</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14896</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3204</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5108</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19324</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 nvwgf2umx 0x00007ff882210000 + 4a4d96 nvwgf2umx 0x00007ff882210000 + 131914c KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8320</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-OnlineSubsystem 0x00007ff85a510000 + 12e236 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14404</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadNull DefaultInstance(2)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f2a4 mswsock 0x00007ff8c4870000 + 104e8 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17340</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12984</ThreadID>
+				<ThreadName>PoolThread 42</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6148</ThreadID>
+				<ThreadName>PoolThread 43</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16624</ThreadID>
+				<ThreadName>PoolThread 44</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16496</ThreadID>
+				<ThreadName>PoolThread 45</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15424</ThreadID>
+				<ThreadName>PoolThread 46</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7780</ThreadID>
+				<ThreadName>PoolThread 47</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20288</ThreadID>
+				<ThreadName>PoolThread 48</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6688</ThreadID>
+				<ThreadName>PoolThread 49</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18076</ThreadID>
+				<ThreadName>PoolThread 50</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9828</ThreadID>
+				<ThreadName>PoolThread 51</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8896</ThreadID>
+				<ThreadName>PoolThread 52</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8668</ThreadID>
+				<ThreadName>PoolThread 53</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16428</ThreadID>
+				<ThreadName>PoolThread 54</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + 1ac557 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5716</ThreadID>
+				<ThreadName>PoolThread 55</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + a2af4 ntdll 0x00007ff8c9020000 + 16494 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3404</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + a2af4 ntdll 0x00007ff8c9020000 + 16494 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13412</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 mswsock 0x00007ff8c4870000 + a81d mswsock 0x00007ff8c4870000 + a300 WS2_32 0x00007ff8c69a0000 + 10ac0 UE4Editor-Sockets 0x00007ff85e790000 + 1301d UE4Editor-IOSTargetPlatform 0x00007ff858220000 + 14061 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16328</ThreadID>
+				<ThreadName>FTcpDSCommander</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9fcd4 KERNELBASE 0x00007ff8c58e0000 + 5cc2e combase 0x00007ff8c8bd0000 + a888b combase 0x00007ff8c8bd0000 + a856b combase 0x00007ff8c8bd0000 + a865c combase 0x00007ff8c8bd0000 + a84cc KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19920</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f204 KERNELBASE 0x00007ff8c58e0000 + 38973 UE4Editor-Core 0x00007ff86bc50000 + 60ae9c UE4Editor-Core 0x00007ff86bc50000 + aea10 UE4Editor-Core 0x00007ff86bc50000 + af0fe UE4Editor-RenderCore 0x00007ff88c910000 + aa422 UE4Editor-RenderCore 0x00007ff88c910000 + b2af4 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8604</ThreadID>
+				<ThreadName>RenderThread 50</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff8c9020000 + 9f804 KERNELBASE 0x00007ff8c58e0000 + 39c61 UE4Editor-Core 0x00007ff86bc50000 + 608961 UE4Editor-RenderCore 0x00007ff88c910000 + b2c38 UE4Editor-Core 0x00007ff86bc50000 + 607cdb UE4Editor-Core 0x00007ff86bc50000 + 600970 KERNEL32 0x00007ff8c6350000 + 17974 ntdll 0x00007ff8c9020000 + 5a0b1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14576</ThreadID>
+				<ThreadName>RTHeartBeat 50</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>637452221026770000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10 (Release 1809)  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>false</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+	<EngineData>
+		<RHI.IsGPUOverclocked>false</RHI.IsGPUOverclocked>
+		<RHI.RHIName>D3D11</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce RTX 2080</RHI.AdapterName>
+		<RHI.UserDriverVersion>442.92</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>26.21.14.4292</RHI.InternalDriverVersion>
+		<RHI.DriverDate>4-7-2020</RHI.DriverDate>
+		<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+	</EngineData>
+	<GameData />
+	<EnabledPlugins>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Mesh Painting&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;XGE Controller&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Paper2D&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;AISupport&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Environment Query Editor (Experimental)&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;LightPropagationVolume&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Camera Shake Previewer&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Asset Manager Editor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Curve Editor Tools&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;CryptoKeys&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Data Validation&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Facial Animation Bulk Importer&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;GeometryMode&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;GameplayTagsEditor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Mac Graphics Switching&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Wizard for mobile packaging scenarios&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Material Analyzer&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Plugin Browser&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Animation Sharing&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 2, &quot;VersionName&quot;: &quot;2.0&quot;, &quot;FriendlyName&quot;: &quot;CLion Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 14, &quot;VersionName&quot;: &quot;1.4&quot;, &quot;FriendlyName&quot;: &quot;Git&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;SpeedTree Importer&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;CodeLite Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Linux Compiler-only Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Perforce&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;KDevelop Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 40, &quot;VersionName&quot;: &quot;1.4.6&quot;, &quot;FriendlyName&quot;: &quot;Plastic SCM&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Property Access Node&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;UObject Example Plugin&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Plugin Utilities&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Subversion&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Variant Manager Content&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Visual Studio Code Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Visual Studio Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Alembic Importer (Experimental)&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;XCode Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Datasmith Content&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Niagara&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Automation Utilities&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 2, &quot;VersionName&quot;: &quot;2.0&quot;, &quot;FriendlyName&quot;: &quot;Android Media Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 2, &quot;VersionName&quot;: &quot;2.0&quot;, &quot;FriendlyName&quot;: &quot;AVF Media Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Image Sequence Media Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Media Compositing&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Media Player Editor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1&quot;, &quot;FriendlyName&quot;: &quot;BackChannel&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Chaos Cloth Editor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;WebM Video Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;ChaosEditor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Chaos Solver&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Chaos Cloth&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 2, &quot;VersionName&quot;: &quot;2.0&quot;, &quot;FriendlyName&quot;: &quot;WMF Media Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Chaos Niagara&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;CharacterAI&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Geometry Cache (Experimental)&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Geometry&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Geometry Processing&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;TCP Messaging&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;UDP Messaging&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1&quot;, &quot;FriendlyName&quot;: &quot;MotoSynth&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 2, &quot;VersionName&quot;: &quot;1.1&quot;, &quot;FriendlyName&quot;: &quot;Rider Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Magic Leap Secure Storage&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Platform Cryptography Plugin&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Planar Cut&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Magic Leap&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Proxy LOD Plugin (Experimental)&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Skeletal Mesh Simplifier (Early Access)&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Actor Sequence (Experimental)&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Matinee to Level Sequence&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Level Sequence Editor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Template Sequence (Experimental)&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Online Subsystem&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Online Subsystem NULL&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Online Subsystem Utils&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Launcher Chunk Installer&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Actor Layer Utilities&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Android Movie Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Android Device Profile Selector&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Android Runtime Permission&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Apple Image Utils&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Apple Movie Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;ArchVis Character&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Asset Tags&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Audio Capture&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Audio Synesthesia&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;ScreenshotTools&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Cable Component&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Chunk Downloader&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Custom Mesh Component&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Editable Mesh&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Example Device Profile Selector&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Google Cloud Messaging&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;GooglePAD&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;IOS Device Profile Selector&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Mobile Location Services Blueprints Library&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Linux Device Profile Selector&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Mobile Patching Utilities&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;PhysX Vehicles&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Procedural Mesh Component&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Custom Splash Preload Screen&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Property Access Editor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Runtime PhysX Cooking&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Significance Manager&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;SoundFields&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.1&quot;, &quot;FriendlyName&quot;: &quot;Synthesis and DSP Effects&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Movie Player for WebM files&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Windows Movie Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Magic Leap Light Estimatation&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Magic Leap Media Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Magic Leap Passable World&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;MLSDK&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Content Browser - Asset Data Source&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Content Browser - Class Data Source&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Online Subsystem GooglePlay&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Online Subsystem iOS&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.51.0&quot;, &quot;FriendlyName&quot;: &quot;Oculus VR&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;SteamVR&quot; }</Plugin>
+	</EnabledPlugins>
+</FGenericCrashContext>
